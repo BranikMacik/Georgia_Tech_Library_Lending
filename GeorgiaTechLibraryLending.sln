@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgiaTechLibraryLending", "GeorgiaTechLibraryLending\GeorgiaTechLibraryLending.csproj", "{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeorgiaTechLibraryLending", "GeorgiaTechLibraryLending\GeorgiaTechLibraryLending.csproj", "{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{289C00F8-6659-4FC7-8287-91E3BB43FA4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2CEE606D-0DFE-4429-B9D1-090F3F06A43D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5B23CC28-6E29-4F60-B66F-4F3CA07FD375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Domain", "Library.Domain\Library.Domain.csproj", "{F2235CAE-56B9-4C4D-851A-578AA9E5163B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Application", "Library.Application\Library.Application.csproj", "{557A69A5-3E00-462D-A2EA-64AB76D808D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,24 @@ Global
 		{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2235CAE-56B9-4C4D-851A-578AA9E5163B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2235CAE-56B9-4C4D-851A-578AA9E5163B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2235CAE-56B9-4C4D-851A-578AA9E5163B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2235CAE-56B9-4C4D-851A-578AA9E5163B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557A69A5-3E00-462D-A2EA-64AB76D808D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557A69A5-3E00-462D-A2EA-64AB76D808D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557A69A5-3E00-462D-A2EA-64AB76D808D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557A69A5-3E00-462D-A2EA-64AB76D808D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A027CE6-FEAE-4E3B-B191-6AE7F3931DC5} = {2CEE606D-0DFE-4429-B9D1-090F3F06A43D}
+		{2CEE606D-0DFE-4429-B9D1-090F3F06A43D} = {289C00F8-6659-4FC7-8287-91E3BB43FA4A}
+		{5B23CC28-6E29-4F60-B66F-4F3CA07FD375} = {289C00F8-6659-4FC7-8287-91E3BB43FA4A}
+		{F2235CAE-56B9-4C4D-851A-578AA9E5163B} = {5B23CC28-6E29-4F60-B66F-4F3CA07FD375}
+		{557A69A5-3E00-462D-A2EA-64AB76D808D8} = {5B23CC28-6E29-4F60-B66F-4F3CA07FD375}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7B1910D-A2A8-410D-8B40-3953C1ACEDCE}
