@@ -11,9 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2CEE606D-0DF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5B23CC28-6E29-4F60-B66F-4F3CA07FD375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Domain", "Library.Domain\Library.Domain.csproj", "{F2235CAE-56B9-4C4D-851A-578AA9E5163B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Domain", "Library.Domain\Library.Domain.csproj", "{F2235CAE-56B9-4C4D-851A-578AA9E5163B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Application", "Library.Application\Library.Application.csproj", "{557A69A5-3E00-462D-A2EA-64AB76D808D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Application", "Library.Application\Library.Application.csproj", "{557A69A5-3E00-462D-A2EA-64AB76D808D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Seed", "Database Seed", "{D3EDFAB0-A2B4-4F30-A6FC-3EADFE882791}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\brani\Downloads\Data_seed.sql = C:\Users\brani\Downloads\Data_seed.sql
+		Tables.sql = Tables.sql
+		C:\Users\brani\Downloads\Useful_queries.sql = C:\Users\brani\Downloads\Useful_queries.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +50,7 @@ Global
 		{5B23CC28-6E29-4F60-B66F-4F3CA07FD375} = {289C00F8-6659-4FC7-8287-91E3BB43FA4A}
 		{F2235CAE-56B9-4C4D-851A-578AA9E5163B} = {5B23CC28-6E29-4F60-B66F-4F3CA07FD375}
 		{557A69A5-3E00-462D-A2EA-64AB76D808D8} = {5B23CC28-6E29-4F60-B66F-4F3CA07FD375}
+		{D3EDFAB0-A2B4-4F30-A6FC-3EADFE882791} = {289C00F8-6659-4FC7-8287-91E3BB43FA4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7B1910D-A2A8-410D-8B40-3953C1ACEDCE}
